@@ -1,0 +1,236 @@
+footer{
+    width: 100%;
+    padding: 0px 0px;
+    background-image: url(../Images/background-footer.svg);
+    background-size: cover;
+    
+    /*background-color: #d0f0f8;
+    -webkit-mask-image: url("../Images/background-footer.svg");
+    mask-image: url("../Images/background-footer.svg");
+    -webkit-mask-size: cover;
+    mask-size: cover;*/
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 20px;
+    color: #343434;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+
+/* footer */
+/* CARRUCEL */
+.container__slider{
+    max-width: 1000px;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+input[type=radio]{
+    display: none;
+}
+
+.containers{
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 600px;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+
+#item-2:checked ~ .cards #selector-1,
+#item-1:checked ~ .cards #selector-3,
+#item-3:checked ~ .cards #selector-2{
+    transform: translateX(-40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+#item-3:checked ~ .cards #selector-1,
+#item-1:checked ~ .cards #selector-2,
+#item-2:checked ~ .cards #selector-3{
+    transform: translateX(40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+#item-1:checked ~ .cards #selector-1,
+#item-2:checked ~ .cards #selector-2,
+#item-3:checked ~ .cards #selector-3{
+    transform: translateX(0) scale(1);
+    z-index: 1;
+}
+
+.navbar-brand{
+    color: #343434;
+}
+
+/* CAMBIOS */
+
+/* NUESTRO SERVICIO TEXT 
+SE CAMBIA PARA PODER DARLE ESPACIO */
+.subtitulo{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.subtitulos{
+    color: #af20d3;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.subtitulos{
+    padding: 5px;
+    margin-top: 5px;
+}
+/*  */
+
+.containerSSS{
+    width: 90%;
+  
+    padding: 10px 40px;
+  }
+  .containerSSS .swiper-container{
+    width: 100%;
+    height: 100%;
+  }
+  .containerSSS .swiper-slide {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: start;
+    box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+   
+  }
+  .containerSSS .swiper-slide img{
+     display: block;
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+  
+  }
+  .containerSSS .swiper-slide .card-description{
+      padding:1rem 1rem;
+  }
+  .containerSSS .swiper-slide .card-title,.container .swiper-slide .card-text{
+     margin-bottom: .5rem;
+  }
+  .containerSSS .swiper-slide .card-link{
+     text-align: center;
+    
+  }
+  .containerSSS .swiper-slide .card-link a{
+      text-decoration: none;
+      color: #1d6ce2;
+  }
+  .swiper-button-next{
+      right: 26px !important;
+  }
+  .swiper-button-prev{
+      left: 26px !important;
+  }
