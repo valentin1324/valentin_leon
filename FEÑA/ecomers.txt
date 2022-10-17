@@ -1,0 +1,381 @@
+    <!-- <script>
+                    $(document).ready(function() {
+                        $('.popup-with-zoom-anim').magnificPopup({
+                            type: 'inline',
+                            fixedContentPos: false,
+                            fixedBgPos: true,
+                            overflowY: 'auto',
+                            closeBtnInside: true,
+                            preloader: false,
+                            midClick: true,
+                            removalDelay: 300,
+                            mainClass: 'my-mfp-zoom-in'
+                        });
+
+                    });
+                </script>
+            </div>
+            <div class="col-md-7 wthree_banner_bottom_right">
+                <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+                    <ul id="myTab" class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home">Bordados</a></li>
+                        <li role="presentation"><a href="#audio" role="tab" id="audio-tab" data-toggle="tab" aria-controls="audio">AUDIFONOS</a></li>
+                        <li role="presentation"><a href="#video" role="tab" id="video-tab" data-toggle="tab" aria-controls="video">LAPTOPS</a></li>
+                        <li role="presentation"><a href="#tv" role="tab" id="tv-tab" data-toggle="tab" aria-controls="tv">#3</a></li>
+
+                    </ul>
+                    <div id="myTabContent" class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
+                            <div class="agile_ecommerce_tabs">
+                                <div class="col-md-4 agile_ecommerce_tab_left">
+                                    <div class="hs-wrapper">
+                                        <img src="images/pro max 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/pro max 2.png" alt=" " class="img-responsive" />
+                                        <img src="images/pro max 3.png" alt=" " class="img-responsive" />
+                                        <img src="images/pro max 4.png" alt=" " class="img-responsive" />
+                                        <img src="images/pro max 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/pro max 2.png" alt=" " class="img-responsive" />
+                                        <img src="images/pro max 3.png" alt=" " class="img-responsive" />
+                                        <img src="images/pro max 4.png" alt=" " class="img-responsive" />
+                                        <div class="w3_hs_bottom">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <h5><a href="single.html">IPHONE 12 PRO</a></h5>
+                                    <div class="simpleCart_shelfItem">
+                                        <p><span>$30,999</span> <i class="item_price">$29,999</i></p>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="w3ls_item" value="IPHONE 12 PRO" />
+                                            <input type="hidden" name="amount" value="29999" />
+                                            <button type="submit" class="w3ls-cart">AGREGAR AL CARRITO</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 agile_ecommerce_tab_left">
+                                    <div class="hs-wrapper">
+                                        <img src="images/iphone 12 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/iphone 12 2.png" alt=" " class="img-responsive" />
+                                        <img src="images/iphone 12 3.png" alt=" " class="img-responsive" />
+                                        <img src="images/iphone 12 4.png" alt=" " class="img-responsive" />
+                                        <img src="images/iphone 12 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/iphone 12 2.png" alt=" " class="img-responsive" />
+                                        <img src="images/iphone 12 3.png" alt=" " class="img-responsive" />
+                                        <img src="images/iphone 12 4.png" alt=" " class="img-responsive" />
+                                        <div class="w3_hs_bottom">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <h5><a href="single.html">IPHONE 12</a></h5>
+                                    <div class="simpleCart_shelfItem">
+                                        <p><span>$25,499</span> <i class="item_price">$22,499</i></p>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="w3ls_item" value="IPHONE 12" />
+                                            <input type="hidden" name="amount" value="22499" />
+                                            <button type="submit" class="w3ls-cart">AGREGAR AL CARRITO</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 agile_ecommerce_tab_left">
+                                    <div class="hs-wrapper">
+                                        <img src="images/iphone 11 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/iphone 11 2.png" alt=" " class="img-responsive" />
+                                        <img src="images/iphone 11 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/iphone 11 2.png" alt=" " class="img-responsive" />
+                                        <img src="images/iphone 11 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/iphone 11 2.png" alt=" " class="img-responsive" />
+                                        <img src="images/iphone 11 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/iphone 11 2.png" alt=" " class="img-responsive" />
+                                        <div class="w3_hs_bottom">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <h5><a href="single.html">IPHONE 11</a></h5>
+                                    <div class="simpleCart_shelfItem">
+                                        <p><span>$20,499</span> <i class="item_price">$19,499</i></p>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="w3ls_item" value="IPHONE 11" />
+                                            <input type="hidden" name="amount" value="19499" />
+                                            <button type="submit" class="w3ls-cart">AGREGAR AL CARRITO</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="audio" aria-labelledby="audio-tab">
+                            <div class="agile_ecommerce_tabs">
+                                <div class="col-md-4 agile_ecommerce_tab_left">
+                                    <div class="hs-wrapper">
+                                        <img src="images/airpods.png" alt=" " class="img-responsive" />
+                                        <img src="images/airpods.png" alt=" " class="img-responsive" />
+                                        <img src="images/airpods.png" alt=" " class="img-responsive" />
+                                        <img src="images/airpods.png" alt=" " class="img-responsive" />
+                                        <img src="images/airpods.png" alt=" " class="img-responsive" />
+                                        <img src="images/airpods.png" alt=" " class="img-responsive" />
+                                        <img src="images/airpods.png" alt=" " class="img-responsive" />
+                                        <img src="images/airpods.png" alt=" " class="img-responsive" />
+                                        <div class="w3_hs_bottom">
+                                        </div>
+                                    </div>
+                                    <h5><a href="single.html">AIRPODS PRO</a></h5>
+                                    <div class="simpleCart_shelfItem">
+                                        <p><span>$5.000</span> <i class="item_price">$4,591</i></p>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="w3ls_item" value="AIRPODS PRO" />
+                                            <input type="hidden" name="amount" value="4591" />
+                                            <button type="submit" class="w3ls-cart">AGREGAR AL CARRITO</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 agile_ecommerce_tab_left">
+                                    <div class="hs-wrapper">
+                                        <img src="images/inalambricos 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/inalambricos 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/inalambricos 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/inalambricos 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/inalambricos 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/inalambricos 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/inalambricos 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/inalambricos 1.png" alt=" " class="img-responsive" />
+                                        <div class="w3_hs_bottom">
+                                        </div>
+                                    </div>
+                                    <h5><a href="single.html">INALAMBRICOS LG</a></h5>
+                                    <div class="simpleCart_shelfItem">
+                                        <p><span>$700</span> <i class="item_price">$613</i></p>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="w3ls_item" value="INALAMBRICOS LG" />
+                                            <input type="hidden" name="amount" value="613" />
+                                            <button type="submit" class="w3ls-cart">AGREGAR AL CARRITO</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 agile_ecommerce_tab_left">
+                                    <div class="hs-wrapper">
+                                        <img src="images/gamer 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/gamer 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/gamer 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/gamer 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/gamer 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/gamer 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/gamer 1.png" alt=" " class="img-responsive" />
+                                        <img src="images/gamer 1.png" alt=" " class="img-responsive" />
+                                        <div class="w3_hs_bottom">
+                                        </div>
+                                    </div>
+                                    <h5><a href="single.html">GAMER</a></h5>
+                                    <div class="simpleCart_shelfItem">
+                                        <p><span>$500</span> <i class="item_price">$460</i></p>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="w3ls_item" value="GAMER" />
+                                            <input type="hidden" name="amount" value="460" />
+                                            <button type="submit" class="w3ls-cart">AGREGAR AL CARRITO</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="video" aria-labelledby="video-tab">
+                            <div class="agile_ecommerce_tabs">
+                                <div class="col-md-4 agile_ecommerce_tab_left">
+                                    <div class="hs-wrapper">
+                                        <img src="images/macbook.png" alt=" " class="img-responsive" />
+                                        <img src="images/macbook.png" alt=" " class="img-responsive" />
+                                        <img src="images/macbook.png" alt=" " class="img-responsive" />
+                                        <img src="images/macbook.png" alt=" " class="img-responsive" />
+                                        <img src="images/macbook.png" alt=" " class="img-responsive" />
+                                        <img src="images/macbook.png" alt=" " class="img-responsive" />
+                                        <img src="images/macbook.png" alt=" " class="img-responsive" />
+                                        <img src="images/macbook.png" alt=" " class="img-responsive" />
+                                        <div class="w3_hs_bottom">
+                                        </div>
+                                    </div>
+                                    <h5><a href="single.html">MACBOOK</a></h5>
+                                    <div class="simpleCart_shelfItem">
+                                        <p><span>$35,700</span> <i class="item_price">$32,698</i></p>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="w3ls_item" value="MACBOOK" />
+                                            <input type="hidden" name="amount" value="32698" />
+                                            <button type="submit" class="w3ls-cart">AGREGAR AL CARRITO</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 agile_ecommerce_tab_left">
+                                    <div class="hs-wrapper">
+                                        <img src="images/hp.png" alt=" " class="img-responsive" />
+                                        <img src="images/hp.png" alt=" " class="img-responsive" />
+                                        <img src="images/hp.png" alt=" " class="img-responsive" />
+                                        <img src="images/hp.png" alt=" " class="img-responsive" />
+                                        <img src="images/hp.png" alt=" " class="img-responsive" />
+                                        <img src="images/hp.png" alt=" " class="img-responsive" />
+                                        <img src="images/hp.png" alt=" " class="img-responsive" />
+                                        <img src="images/hp.png" alt=" " class="img-responsive" />
+                                        <div class="w3_hs_bottom">
+                                        </div>
+                                    </div>
+                                    <h5><a href="single.html">HP</a></h5>
+                                    <div class="simpleCart_shelfItem">
+                                        <p><span>$15,699</span> <i class="item_price">$14,699</i></p>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="w3ls_item" value="HP" />
+                                            <input type="hidden" name="amount" value="14699" />
+                                            <button type="submit" class="w3ls-cart">AGREGAR AL CARRITO</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 agile_ecommerce_tab_left">
+                                    <div class="hs-wrapper">
+                                        <img src="images/lenovo.png" alt=" " class="img-responsive" />
+                                        <img src="images/lenovo.png" alt=" " class="img-responsive" />
+                                        <img src="images/lenovo.png" alt=" " class="img-responsive" />
+                                        <img src="images/lenovo.png" alt=" " class="img-responsive" />
+                                        <img src="images/lenovo.png" alt=" " class="img-responsive" />
+                                        <img src="images/lenovo.png" alt=" " class="img-responsive" />
+                                        <img src="images/lenovo.png" alt=" " class="img-responsive" />
+                                        <img src="images/lenovo.png" alt=" " class="img-responsive" />
+                                        <img src="images/lenovo.png" alt=" " class="img-responsive" />
+                                        <div class="w3_hs_bottom">
+
+                                        </div>
+                                    </div>
+                                    <h5><a href="single.html">LENOVO</a></h5>
+                                    <div class="simpleCart_shelfItem">
+                                        <p><span>$20,699</span> <i class="item_price">$19,699</i></p>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="w3ls_item" value="LENOVO" />
+                                            <input type="hidden" name="amount" value="19699" />
+                                            <button type="submit" class="w3ls-cart">AGREGAR AL CARRITO</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="tv" aria-labelledby="tv-tab">
+                            <div class="agile_ecommerce_tabs">
+                                <div class="col-md-4 agile_ecommerce_tab_left">
+                                    <div class="hs-wrapper">
+                                        <img src="images/refrigeradora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/refrigeradora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/refrigeradora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/refrigeradora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/refrigeradora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/refrigeradora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/refrigeradora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/refrigeradora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/refrigeradora.jpg" alt=" " class="img-responsive" />
+                                        <div class="w3_hs_bottom">
+
+                                        </div>
+                                    </div>
+                                    <h5><a href="single.html">REFRIGERADORA</a></h5>
+                                    <div class="simpleCart_shelfItem">
+                                        <p><span>$10,600</span> <i class="item_price">$9,600</i></p>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="w3ls_item" value="REFRIGERADORA" />
+                                            <input type="hidden" name="amount" value="9600" />
+                                            <button type="submit" class="w3ls-cart">AGREGAR AL CARRITO</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 agile_ecommerce_tab_left">
+                                    <div class="hs-wrapper">
+                                        <img src="images/smarttv.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/smarttv.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/smarttv.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/smarttv.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/smarttv.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/smarttv.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/smarttv.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/smarttv.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/smarttv.jpg" alt=" " class="img-responsive" />
+                                        <div class="w3_hs_bottom">
+
+                                        </div>
+                                    </div>
+                                    <h5><a href="single.html">SMART TV</a></h5>
+                                    <div class="simpleCart_shelfItem">
+                                        <p><span>$15.700</span> <i class="item_price">$12.700</i></p>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="w3ls_item" value="SMART TV" />
+                                            <input type="hidden" name="amount" value="12700" />
+                                            <button type="submit" class="w3ls-cart">AGREGAR AL CARRITO</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 agile_ecommerce_tab_left">
+                                    <div class="hs-wrapper">
+                                        <img src="images/lavadora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/lavadora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/lavadora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/lavadora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/lavadora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/lavadora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/lavadora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/lavadora.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/lavadora.jpg" alt=" " class="img-responsive" />
+                                        <div class="w3_hs_bottom">
+
+                                        </div>
+                                    </div>
+                                    <h5><a href="single.html">LAVADORA</a></h5>
+                                    <div class="simpleCart_shelfItem">
+                                        <p><span>$9.900</span> <i class="item_price">$7.900</i></p>
+                                        <form action="#" method="post">
+                                            <input type="hidden" name="cmd" value="_cart" />
+                                            <input type="hidden" name="add" value="1" />
+                                            <input type="hidden" name="w3ls_item" value="LAVADORA" />
+                                            <input type="hidden" name="amount" value="7900" />
+                                            <button type="submit" class="w3ls-cart">AGREGAR AL CARRITO</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="kitchen" aria-labelledby="kitchen-tab">
+                            <div class="agile_ecommerce_tabs">
+                                <div class="clearfix"> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>

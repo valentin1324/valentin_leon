@@ -1,0 +1,181 @@
+/*GALERIA  */
+.portafolio{
+    background: #f2f2f2;
+}
+
+.galeria-port{
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+}
+
+
+
+.imagen-port{
+    width: 40%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    height: 20%; 
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hove-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hcla(273,91%,27%,0.7);
+    transition: transform 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.hove-galeria img{
+ width: 34%;
+}
+
+.hove-galeria p{
+    color: #fff;
+}
+
+.imagen-port:hover .hove-galeria{
+    transform: scale(1);
+}
+
+#a{
+    text-decoration: none;
+}
+
+
+
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;     
+}
+
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.conten-foo{
+    text-align: center;
+}
+
+.conten-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+}
+
+.conten-foo p{
+    color: #ccc;
+}
+
+.notificacion{
+    position:absolute;
+    display: flex;
+    max-width: 300px;
+    padding: 20px 15px;
+    border-radius: 4px;
+    background-color: #141619;
+    color: #f6f5f9;
+    box-shadow: 0 1px 10px rgba(0,0,0 .1);
+    transform: translateY(30px);
+    opacity: 0;
+    visibility: hidden;
+    animation: fade 4s linear forwards;
+}
+
+.progress{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    width: 0;
+    height: 3px;
+    background-image:linear-gradient(to right, #529bdb,#3250bf) ;
+    border-radius: 4px;
+    animation: progress 3s .25s linear forwards;
+}
+
+@keyframes fade { 5% {
+opacity: 1;
+visibility: visible;
+transform: translateY(0px);
+
+}
+
+90%{
+    opacity: 1;
+    transform: translateY(0px);
+}
+95%{
+    opacity: 0;
+}
+100%{
+    opacity: 0;
+    transform: translateY(-30px);
+}
+}
+
+@keyframes progress{
+    to{
+        width: calc(100% - 10px);
+    }
+}
+
+/* de aqui empieza valentin */
+
+
+
+
+@media screen and (max-width: 600px){
+    
+
+    .contenedor-footer{
+        width: auto;
+        top: 3px;
+        flex-direction: column;
+        margin: 0;
+    }
+
+
+}
+
+
+@media screen and (max-width: 400px){
+
+    .contenedor-footer{
+        width: auto;
+        top: 3px;
+        flex-direction: column;
+        margin: 0;
+    }
+
+
+}
